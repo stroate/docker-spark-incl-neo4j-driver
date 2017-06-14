@@ -1,4 +1,4 @@
-FROM bigboards/java-8-__arch__
+FROM bigboards/java-8-x86_64
 
 MAINTAINER robinvers <https://github.com/robinvers>
 
