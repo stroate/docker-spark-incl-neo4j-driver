@@ -4,8 +4,6 @@ MAINTAINER robinvers <https://github.com/robinvers>
 
 USER root
 
-ADD requirements.txt /pip
-
 # Install Python to support PySpark
 RUN apt-get update && \
     apt-get install -y -q python && \
