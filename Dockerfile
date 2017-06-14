@@ -17,7 +17,7 @@ RUN apt-get update && \
 # Install pip package manager to include the neo4j-driver
 RUN curl -O https://bootstrap.pypa.io/get-pip.py && \
 	python2.7 get-pip.py && \
-	pip install -r requirements.txt
+	pip install neo4j-driver
 
 
 #        master    worker
